@@ -1,30 +1,11 @@
-# Nuxt Minimal Starter
+#Requirements
+Use the latest version of Nuxt.
+Use the latest version of Pinia for storing experiment results.
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+#Part 1. Develop app
 
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
+Install dependencies
 # npm
 npm run dev
 
@@ -36,40 +17,15 @@ yarn dev
 
 # bun
 bun run dev
-```
 
-## Production
+Development Server
+Start the development server on http://localhost:3000:
 
-Build the application for production:
+#Part 2. Analysis
+We create folder app/part2 - with to files task1 and task2
 
-```bash
-# npm
-npm run build
+Result you can find on main page on Task2 page or in console
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Duplicate results are:
+Task1: Task1 - RTP after 100000 game: 203.15%
+Task2: Task2 - RTP = 95%: Balut: 2.585 Straight: 3.231 Full House: 1.939 Pair: 1.293 None: 0.000

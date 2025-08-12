@@ -6,7 +6,6 @@ definePageMeta({
 })
 
 const store = useGameStore()
-console.log(store.all_bets)
 
 </script>
 

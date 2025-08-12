@@ -1,14 +1,9 @@
 <script setup lang="ts">
-import { simulateRTP } from '~/part2/task1';
 import { useGameStore } from '~/store/game.store';
-import { useHistoryStore } from '~/store/history.store';
-
-
 
 const store = useGameStore()
 const roll = ref(10)
 const arrayDice = ref([0,0,0,0,0])
-const history = useHistoryStore()
 
 function onRoll() {
     arrayDice.value = rollDice()
