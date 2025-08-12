@@ -1,9 +1,9 @@
-#Requirements
+# Requirements
 Use the latest version of Nuxt.
 Use the latest version of Pinia for storing experiment results.
 
 
-#Part 1. Develop app
+# Part 1. Develop app
 
 Install dependencies:
 npm install
@@ -15,7 +15,7 @@ npm run dev
 yarn dev
 Start the development server on http://localhost:3000:
 
-#Part 2. Analysis
+# Part 2. Analysis
 We create folder app/part2 - with to files task1 and task2
 
 Result you can find on main page on Task2 page or in console
