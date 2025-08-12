@@ -13,7 +13,8 @@ export type ICombination =
   | 'pair'      
   | 'fullHouse'  
   | 'straight'   
-  | 'balut'      
+  | 'balut'  
+  | 'other'    
   | 'none';      
 
 export function detectCombo(dice: number[]): ICombination {
@@ -51,6 +52,14 @@ export function detectCombo(dice: number[]): ICombination {
         return 'pair';
     }
 
-     return 'none';
+    if (freq[0] === 3) {
+      return 'pair';  
+    }
+
+    if (freq[0] === 4) {
+      return 'pair';  
+    }
+
+     return 'other';
 }
 

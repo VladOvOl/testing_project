@@ -83,7 +83,12 @@ const isDisabled = computed(() => {
                 <p>Straight</p>
                 <h3>x5</h3>
             </div>
-            <div class="container_combination">
+            <div 
+                class="container_combination"
+                :style = "{
+                    color: store.result === 'other' ? 'red' : 'black'
+                }"
+            >
                 <p>Other</p>
                 <h3>x0</h3>
             </div>
