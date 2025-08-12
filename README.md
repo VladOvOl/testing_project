@@ -5,20 +5,14 @@ Use the latest version of Pinia for storing experiment results.
 
 #Part 1. Develop app
 
-Install dependencies
-# npm
+Install dependencies:
+npm install
+yarn install
+
+
+Development Server:
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
 yarn dev
-
-# bun
-bun run dev
-
-Development Server
 Start the development server on http://localhost:3000:
 
 #Part 2. Analysis
