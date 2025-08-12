@@ -50,7 +50,6 @@ export const useGameStore = defineStore('game',{
 
         setIsRolling(arrayDice: number[], bet: number){
             const history = useHistoryStore()
-            console.log(history.store)
             this.store.isRolling = true
             this.store.result = "none"
             this.store.all_bets += bet

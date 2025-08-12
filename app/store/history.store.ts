@@ -17,7 +17,6 @@ export const useHistoryStore = defineStore('history',{
     },
     actions:{
         set(input: IHistoryStore){
-            console.log(input)
             this.$patch({
             store: [...this.store, input]
 })
